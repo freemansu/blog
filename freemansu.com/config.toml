@@ -1,0 +1,233 @@
+baseURL = "http://www.freemansu.su"
+title = "To Build"
+theme = "hugo-coder"
+languagecode = "zh-cn"
+defaultcontentlanguage = "zh-cn"
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+enableGitInfo = true
+enableEmoji = true
+
+paginate = 9999
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = false
+pluralizelisttitles = false
+
+FootnoteReturnLinkContents = "↑"
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[outputs]
+  page     = ["HTML", "AMP"]
+  home     = ["HTML", "RSS"]
+  section  = ["HTML"]
+  taxonomyTerm = ["HTML"]
+  taxonomy = ["HTML"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[params]
+    author = "Yu Su"
+    info1 = "📚"
+    info1Tooltip = "Lifelong Learner"
+    info2 = "👨‍💻"
+    info2Tooltip = "Full-Stack Developer"
+    info3 = "💴"
+    info3Tooltip = "IT History"
+    description = "Build + Learn + Review = freemansu.com"
+    keywords = "Full-Stack Developer"
+    avatarurl = "images/avatar/su_avatar_1.jpg"
+    logoImg = "images/avatar/su_avatar_1.jpg"
+    header = "freemansu.com"
+
+    twitter = "freemansuyu"
+    github = "freemansu"
+    telegram = "freemansuyu"
+    zhihu = "freemansuyu"
+
+    favicon_root_path = "images/ico"
+
+    hidecredits = true
+    hidecopyright = false
+
+    series = true
+
+    rtl = false
+
+    colorscheme = "auto"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    math = true
+    custom_css = []
+    custom_js = []
+
+    dateFormat = "2006-01-02"
+
+    # AMP
+    amp = true
+    ampElements = ["amp-ad","amp-analytics"]
+    themeColor = "#000000"
+    adsensePublisher = "ca-pub-1886683614725279"
+    googleAnalytics = "UA-154678195-1"
+
+    # OG
+    og_image = "images/bg2.png"
+
+
+# Comments on github issue
+[params.utteranc]
+    repo = "freemansu/blog"
+    issue-term = "pathname"
+    theme = "github-light"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-2x fa-github"
+    weight = 1
+    url = "https://github.com/freemansu"
+
+[[params.social]]
+    name = "WeChat"
+    icon = "fa fa-2x fa-weixin"
+    weight = 2
+    url = "wechat_qr.jpg"
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-2x fa-twitter"
+    weight = 3
+    url = "https://twitter.com/freemansuyu"
+
+[[params.social]]
+    name = "Weibo"
+    icon = "fa fa-2x fa-weibo"
+    weight = 4
+    url = "https://weibo.com/freemansu"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-2x fa-linkedin"
+    weight = 5
+    url = "https://www.linkedin.com/in/freemansu"
+
+[[params.social]]
+    name = "YouTube"
+    icon = "fa fa-2x fa-youtube"
+    weight = 6
+    url = "https://www.youtube.com/channel/UCMbyI-nekJxatqfCcwETQjg"    
+
+# [[params.social]]
+#     name = "Telegram"
+#     icon = "fa fa-2x fa-telegram"
+#     weight = 3
+#     url = "https://t.me/s/bmpi365"
+
+# [[params.social]]
+#     name = "ZhiHu"
+#     icon = "fa fa-2x fa-zhihu"
+#     weight = 5
+#     url = "https://zhuanlan.zhihu.com/improve365"
+
+[[params.social]]
+    name = "Email"
+    icon = "fa fa-2x fa-envelope"
+    weight = 7
+    url = "mailto://yusu.work@gmail.com"
+
+[[params.social]]
+    name = "RSS"
+    icon = "fa fa-2x fa-rss"
+    weight = 8
+    url = "index.xml"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+        title = "To Build (去构建)"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1
+                url = "/about/"
+            [[languages.en.menu.main]]
+                name = "Learn"
+                weight = 2
+                url  = "/learn/"
+            [[languages.en.menu.main]]
+                name = "Review"
+                weight = 3
+                url  = "/review/"
+            [[languages.en.menu.main]]
+                name = "IT History"
+                weight = 4
+                url  = "/it_history/"
+            [[languages.en.menu.main]]
+                name = "Life"
+                weight = 5
+                url  = "/life/"
+            [[languages.en.menu.main]]
+                name = "Project"
+                weight = 6
+                url  = "/project/"
+            [[languages.en.menu.main]]
+                name = "Goal"
+                weight = 7
+                url  = "/goal/"
+
+    [languages.zh-cn]
+        languagename = "Chinese"
+        title = "去构建 (To Build)"
+
+        [languages.zh-cn.params]
+            author = "苏 宇"
+            info1 = "📚"
+            info1Tooltip = "全栈技术"
+            info2 = "👨‍💻"
+            info2Tooltip = "认知提升"
+            info3 = "💴"
+            info3Tooltip = "IT历史"
+            description = "全栈开发者(硬件设计、嵌入式、物联网、服务端、前端、移动端、DevOps、架构设计、产品设计); 认知提升(认知科学、学习科学、时间管理、知识管理、写作); IT历史(IT渊源、掌故)"
+            keywords = "硬件设计、嵌入式、物联网、服务端、前端、移动端、DevOps、架构设计、产品设计、认知科学、学习科学、时间管理、知识管理、写作、IT历史"
+
+        [languages.zh-cn.menu]
+            [[languages.zh-cn.menu.main]]
+                name = "关于"
+                weight = 1
+                url = "/about/"
+            [[languages.zh-cn.menu.main]]
+                name = "知新"
+                weight = 2
+                url  = "/learn/"
+            [[languages.zh-cn.menu.main]]
+                name = "温故"
+                weight = 3
+                url  = "/review/"
+            [[languages.zh-cn.menu.main]]
+                name = "IT史"
+                weight = 4
+                url  = "/review/"
+            [[languages.zh-cn.menu.main]]
+                name = "生活"
+                weight = 5
+                url  = "/life/"
+            [[languages.zh-cn.menu.main]]
+                name = "项目"
+                weight = 6
+                url  = "/project/"
+            [[languages.zh-cn.menu.main]]
+                name = "目标"
+                weight = 7
+                url  = "/goal/"
