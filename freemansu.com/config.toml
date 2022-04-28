@@ -1,4 +1,4 @@
-baseURL = "https://stirring-dusk-4a1a18.netlify.app"
+baseURL = "https://stirring-dusk-4a1a18.netlify.app/"
 title = "To Build"
 theme = "hugo-coder"
 languagecode = "zh-cn"
