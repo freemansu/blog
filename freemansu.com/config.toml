@@ -218,7 +218,7 @@ FootnoteReturnLinkContents = "↑"
             [[languages.zh-cn.menu.main]]
                 name = "IT史"
                 weight = 4
-                url  = "/review/"
+                url  = "/it_history/"
             [[languages.zh-cn.menu.main]]
                 name = "生活"
                 weight = 5
