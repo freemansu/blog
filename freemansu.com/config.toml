@@ -53,8 +53,6 @@ FootnoteReturnLinkContents = "↑"
     telegram = "freemansuyu"
     zhihu = "freemansuyu"
 
-    favicon_root_path = "images/ico"
-
     hidecredits = true
     hidecopyright = false
 
